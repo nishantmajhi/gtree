@@ -1,0 +1,12 @@
+# Build output. gtree is a single-file program built from src/; the binary
+# belongs in a release, not in the history -- a committed one goes stale the
+# first time src/ changes and is useless to anyone on another platform.
+/gtree
+/gtree.exe
+*.o
+*.obj
+*.exe
+
+# Scratch directories the test suites create beside themselves when run
+# from the project root rather than from a build directory.
+gtree_tmp_*/

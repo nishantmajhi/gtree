@@ -1,0 +1,2 @@
+# src keeps its own logs
+!*.log

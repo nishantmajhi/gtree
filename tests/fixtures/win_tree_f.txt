@@ -1,0 +1,21 @@
+Folder PATH listing
+Volume serial number is 1A3C-B410
+C:.
+¦   debug.log
+¦   README.md
+¦   
++---build
+¦       out.bin
+¦       
++---empty
++---node_modules
+¦   +---pkg
+¦           p.js
+¦           
++---src
+    ¦   app.log
+    ¦   index.js
+    ¦   
+    +---utils
+            helpers.js
+            

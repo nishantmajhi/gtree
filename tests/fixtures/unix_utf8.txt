@@ -1,0 +1,16 @@
+.
+├── README.md
+├── build
+│   └── out.bin
+├── debug.log
+├── empty
+├── node_modules
+│   └── pkg
+│       └── p.js
+└── src
+    ├── app.log
+    ├── index.js
+    └── utils
+        └── helpers.js
+
+6 directories, 7 files

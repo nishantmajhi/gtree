@@ -1,0 +1,16 @@
+# Normalise source and prose to LF in the repository, as usual.
+*.c     text
+*.h     text
+*.md    text
+*.ps1   text
+Makefile text
+*.bat   text eol=crlf
+
+# The two Windows listings are byte-exact captures of `tree /F` and
+# `tree /F /A`, carriage returns included, and the tests assert on their
+# bytes. Line-ending conversion would quietly turn them into something
+# Windows never produced, so they are excluded from it. The 0xA6 byte they
+# contain is not valid UTF-8 either, which is another reason not to let any
+# filter near them.
+tests/fixtures/win_tree_f.txt        -text
+tests/fixtures/win_tree_f_ascii.txt  -text
